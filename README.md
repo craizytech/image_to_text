@@ -17,7 +17,12 @@ To get started, clone this repository and install the necessary dependencies:
 ```bash
 git clone <repository-url>
 cd <repository-directory>
-pip install torch transformers pillow pymupdf
+pip install Pillow 
+pip install torch
+pip install torchvision 
+pip install transformers 
+pip install sentencepiece 
+pip install pymupdf
 ```
 
 ## Usage
@@ -66,12 +71,12 @@ if there is something that you cannot record as text add description
 msgs = [{"question": "question", "content": question}]
 
 res = model.chat(
-    image=images[0],  # loop through all images in images list here
+    image=images[0],
     msgs=msgs,
     tokenizer=tokenizer,
     sampling=True,
     temperature=0.7,
-    # system_prompt='' # pass system_prompt if needed
+    # system_prompt=''
 )
 print(res)
 ```
