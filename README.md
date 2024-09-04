@@ -81,5 +81,9 @@ LLM Configuration: Adjust the model parameters such as temperature for sampling 
 More Information
 For more information on how this script works and a detailed explanation of document extraction using LLMs, visit this blog post.
 
-Author
+## Author
 Eammon Kiprotich.
+
+## References
+For a more Detailed explanation visit this link:
+https://www.pondhouse-data.com/blog/document-extraction-with-llms
